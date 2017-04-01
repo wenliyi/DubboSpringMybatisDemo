@@ -10,9 +10,9 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <!-- ========================================针对myBatis的配置项============================== -->
     <!-- 配置sqlSessionFactory -->
     <!-- 实例化sqlSessionFactory时需要使用上述配置好的数据源以及SQL映射文件 -->
-    <!-- 自动扫描com/wangyin/mapping/目录下的所有SQL映射的xml文件, 省掉Configuration.xml里的手工配置
-        value="classpath:com/wangyin/mapping/*.xml"指的是classpath(类路径)下com.wangyin.mapping包中的所有xml文件
-        UserMapper.xml位于com.wangyin.mapping包下，这样UserMapper.xml就可以被自动扫描
+    <!-- 自动扫描com/wenly/mapping/目录下的所有SQL映射的xml文件, 省掉Configuration.xml里的手工配置
+        value="classpath:com/wenly/mapping/*.xml"指的是classpath(类路径)下com.wenly.mapping包中的所有xml文件
+        UserMapper.xml位于com.wenly.mapping包下，这样UserMapper.xml就可以被自动扫描
     -->
     <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
         <!--<property name="dataSource" ref="dataSource" />-->

@@ -24,6 +24,12 @@ public class User implements Serializable {
         this.name = name;
         this.age = age;
     }
+    public User( Integer id,String name,  Integer age) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
     // setter和getter方法
     public Integer getId() {
         return id;
