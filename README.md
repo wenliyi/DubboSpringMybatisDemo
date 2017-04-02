@@ -1,5 +1,8 @@
 # DubboSpringMybatisDemo
-Spring+Mybatis+Dubbo实现REST接口（provider部分），提供了数据库的增加、删除、更新、查询四个接口；＜/br＞
+Spring+Mybatis+Dubbo实现REST接口（provider部分），提供了数据库的增加、删除、更新、查询四个接口；
+
+
+＜/br＞
 构建工具Maven,IDE为IntelliJ IDEA。
 笔记：
 Maven:即使知道了jar包的名字，还是要去搜索groupId、artifactId的名字。知道groupId、artifactId的命名规则似乎没什么用，似乎并没有减轻工作量。
